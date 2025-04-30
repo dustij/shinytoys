@@ -82,7 +82,7 @@ Add those changes to the branch you just created using the `git add` command:
 git add -A
 ```
 
-I like to use `-A` flag because it will all changes in existing files, add any new files, and remove any deleted files. Basically, all changes (hints -A or --all).
+I like to use `-A` flag because it will add all changes in existing files, add any new files, and remove any deleted files. Basically, all changes (hints -A or --all).
 
 > As a side note, I found this [cool website](https://explainshell.com/) that provides the help text for a command-line, you can enter git commands and get help fast.
 
