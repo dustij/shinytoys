@@ -1,0 +1,11 @@
+target/
+.vscode/
+*.code-workspace
+
+# Compiled Java class files
+*.class
+
+# macOS system files
+.DS_Store
+AppleDouble
+._*
