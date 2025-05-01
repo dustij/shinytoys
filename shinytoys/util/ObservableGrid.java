@@ -4,6 +4,34 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.function.Supplier;
 
+/**
+ * An observable two-dimensional grid of values that notifies listeners on every cell update.
+ *
+ * <p>
+ * Listeners receive a {@link GridChangeEvent} containing the old value, new value, row and column
+ * of the change. You can instantiate by size or by supplying a fully initialized array via a
+ * {@link Supplier}.
+ * </p>
+ * 
+ * <p>
+ * For example, to create a 4×4 grid of 1’s:
+ * </p>
+ * 
+ * <pre>{@code
+ * ObservableGrid<Integer> grid = new ObservableGrid<>(() -> new Integer[][] {
+ *         {1, 1, 1, 1},
+ *         {1, 1, 1, 1},
+ *         {1, 1, 1, 1},
+ *         {1, 1, 1, 1}
+ * });
+ * }</pre>
+ * 
+ * @param <T> the type of elements in this grid
+ * @author Dusti Johnson
+ * @see GridChangeEvent
+ * @see GridChangeListener
+ * @since 1.0
+ */
 public class ObservableGrid<T> {
     private final T[][] grid;
     private final List<GridChangeListener<T>> listeners;

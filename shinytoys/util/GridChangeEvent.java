@@ -1,5 +1,19 @@
 package util;
 
+/**
+ * Encapsulates a change to a single cell in an {@link ObservableGrid}.
+ *
+ * <p>
+ * Holds the previous and updated values along with the cell's zero-based row and column indices.
+ * Listeners receive this event whenever a grid cell is updated.
+ * </p>
+ *
+ * @param <T> the type of values stored in the grid
+ * @author Dusti Johnson
+ * @see ObservableGrid
+ * @see GridChangeListener
+ * @since 1.0
+ */
 public class GridChangeEvent<T> {
     private final T oldValue;
     private final T newValue;
