@@ -1,11 +1,17 @@
+# Local development stuff
 target/
+tests/
+
+# VS Code things
 .vscode/
 *.code-workspace
 
-# Compiled Java class files
+# Compiled Java classes
 *.class
 
-# macOS system files
+# macOS files
 .DS_Store
 AppleDouble
 ._*
+
+# Feel free to add more!
