@@ -1,3 +1,4 @@
+import java.util.Collection;
 import java.util.HashMap;
 
 /**
@@ -21,7 +22,7 @@ public class Bag<E> {
    }
    
    /**
-    * increments/initializes the count for the given item
+    * increments (and initializes) the bag's count for the given item
     * @param item
     * @return the previous count
     */
@@ -29,6 +30,16 @@ public class Bag<E> {
       int prev = counts.containsKey(item) ? counts.get(item) : 0;
       counts.put(item, prev+1);
       return prev;
+   }
+
+   // Overloaded bulk put methods 
+   public void put(E[] items) {
+      for (E item : items)
+         this.put(item);
+   }
+   public void put(Collection<E> items) {
+      for (E item : items)
+         this.put(item);
    }
 
    @Override
