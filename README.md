@@ -10,14 +10,14 @@ This will be a place we can build, contribute, and share any custom data structu
 
 ## Fork this repository
 
-<img align="right" width="300" src="https://firstcontributions.github.io/assets/Readme/fork.png" alt="fork this repository" />
+<img align="left" width="800" src="https://firstcontributions.github.io/assets/Readme/fork.png" alt="fork this repository" />
 
 Fork this repository by clicking on the fork button on the top of this page.
 This will create a copy of this repository in your account.
 
 ## Clone the repository
 
-<img align="right" width="300" src="https://firstcontributions.github.io/assets/Readme/clone.png" alt="clone this repository" />
+<img align="left" width="800" src="https://firstcontributions.github.io/assets/Readme/clone.png" alt="clone this repository" />
 
 Now clone the forked repository to your machine. Go to your GitHub account, open the forked repository, click on the code button, then on SSH tab and then click the _copy to clipboard_ icon.
 
