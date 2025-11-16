@@ -1,4 +1,4 @@
-package util;
+package observable_grid;
 
 import java.util.ArrayList;
 import java.util.List;
