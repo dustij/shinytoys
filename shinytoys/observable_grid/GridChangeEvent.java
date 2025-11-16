@@ -1,4 +1,4 @@
-package util;
+package observable_grid;
 
 /**
  * Encapsulates a change to a single cell in an {@link ObservableGrid}.

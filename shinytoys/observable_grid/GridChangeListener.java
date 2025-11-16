@@ -1,4 +1,4 @@
-package util;
+package observable_grid;
 
 /**
  * A listener for receiving notifications when a cell in an {@link ObservableGrid} changes its
